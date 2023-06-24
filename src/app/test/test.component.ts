@@ -1,4 +1,4 @@
-import { Component,  } from '@angular/core';
+import { Component} from '@angular/core';
 
 declare const myTest:any;
 
@@ -7,6 +7,6 @@ declare const myTest:any;
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.scss'],
 })
-export class TestComponent   {
+export class TestComponent  {
 
 }

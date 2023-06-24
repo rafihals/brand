@@ -1,0 +1,18 @@
+<h1>{{titlePage}}</h1>
+
+<table border=1>
+    <thead>
+        <tr>
+            <th *ngFor="let col of displayColumn">
+                {{col}}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of dataList">
+            <td>{{data.id}}</td>
+            <td>{{data.user_name}}</td>
+            <td>{{data.password}}</td>
+        </tr>
+    </tbody>
+</table>
